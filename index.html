@@ -3,11 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/scripts/main.js" defer></script>
   <title>Document</title>
 </head>
 <body>
-  Hello World!<br>
-  今日はいい天気です。<br>
-  こんにちは。
+  <p>お名前を入力してください。</p>
+  <div class="form" id="form">
+    <input type="text" id="name-input" placeholder="お名前を入力してください">
+    <input type="submit" value="送信" id="btn-submit">
+    <input type="submit" value="削除" id="btn-delete">
+  </div>
+  <br>
+  <br>
+  <div>
+    あなたのお名前は
+    <input type="text" name="" id="name-output">
+    です。
+  </div>
 </body>
 </html>
